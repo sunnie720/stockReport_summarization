@@ -10,4 +10,4 @@
 
 ## 3. 모델
 1) KB-ALBERT & GPT2
-2) KoBART
+2) KoBART (모델 fine-tuning은 https://github.com/seujung/KoBART-summarization를 참고함)
