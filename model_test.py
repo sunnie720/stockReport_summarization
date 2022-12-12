@@ -31,4 +31,4 @@ def input_text(text, tokenizer, model):
 tqdm_pandas(tqdm())
 docs['model_summary'] = docs[cols[0]].progress_apply(lambda x: input_text(x, tokenizer, model) if bool(x)==True else np.nan)
 docs.to_csv('/home/nsun/nlp_project/kobart/KoBART-summarization/output/final_test_modeloutput.csv', index=False)
-print('output saved')
+print('output saved') 
